@@ -29,6 +29,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <RadioGroup
+        android:id="@+id/choice"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -39,19 +40,19 @@
         app:layout_constraintTop_toBottomOf="@id/header_img">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/glide"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/glide_description" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/current"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/current_app_description" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/retrofit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/retrofit_description" />
